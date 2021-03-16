@@ -1,0 +1,12 @@
+*{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#video{
+    
+    width: 600px;
+    height: 400px;
+    margin: 131px 0px 0px 329px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SOLO</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div>
+        <a href="./html2.html"> click </a>
+    </div> -->
+    <div class="calc">
+        <form name="form">
+            <input class="calculator-display">
+        </form>
+        <!--this table is used for the keybord of the calculator-->
+        <table>
+            <tr>
+                <td><input type="button" value="C" onclick="c()"></td>
+                <td><input type="button" value="/" onclick="insrt('/')"></td>
+                <td><input type="button" value="del" onclick="del()"></td>
+                <td><input type="button" value="x" onclick="insrt('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="insrt(7)"></td>
+                <td><input type="button" value="8" onclick="insrt(8)"></td>
+                <td><input type="button" value="9" onclick="insrt(9)"></td>
+                <td><input type="button" value="-" onclick="insrt('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="insrt(4)"></td>
+                <td><input type="button" value="5" onclick="insrt(5)"></td>
+                <td><input type="button" value="6" onclick="insrt(6)"></td>
+                <td><input type="button" value="+" onclick="insrt('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="insrt(1)"></td>
+                <td><input type="button" value="2" onclick="insrt(2)"></td>
+                <td><input type="button" value="3" onclick="insrt(3)"></td>
+                <td rowspan="2"><input type="button" value="=" onclick="eql()" style="height:160px;background-color:orange"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="0 " onclick="insrt(0)" style="width:160px"></td>
+                <td><input type="button" value="," onclick="insrt(',')"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+            <a id="video" href="./end.html">
+                let's have a break 
+            </a>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'>
+    </script>
+    <script src="project.js "></script>
+</body>
+
+</html>
